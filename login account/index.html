@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login account</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="w-[740px] px-[15px] mx-auto">
+      <div class="bg-[#d297d4] py-12">
+        <img
+          style="width: 56%"
+          class="mx-auto mb-4"
+          src="image/download.png"
+          alt=""
+        />
+
+        <div class="bg-[#fff] text-center w-[400px] mx-auto py-8 px-2">
+          <form action="">
+            <input
+              class="py-[10px] px-[15px] border"
+              id="UserName2"
+              type="text"
+              placeholder="Username"
+            />
+            <input
+              id="passwords"
+              class="mt-3 mb-3 py-[10px] px-[15px] border"
+              type="password"
+              placeholder="password"
+            />
+
+            <div class="">
+              <button
+                type="submit"
+                onclick="login()"
+                class="rounded-lg drop-shadow-[0px_8px_1px_#a3c8f7] bg-[#0093fe] w-[220px] text-white font-black text-lg py-2"
+              >
+                LOG IN
+                <i
+                  class="fa-solid fa-play bg-black text-blue-400 ml-5 px-2 py-[5px] rounded-full inline-block"
+                ></i>
+              </button>
+            </div>
+          </form>
+          <div class="mt-8">
+            <button
+              type="button"
+              onclick="signUp()"
+              class="rounded-lg drop-shadow-[0px_8px_2px_#ceeea9] bg-[#7ddc01] text-white w-[220px] font-black text-lg py-2"
+            >
+              SIGN UP
+              <i
+                class="fa-solid fa-play bg-black text-[#7ddc01] ml-5 px-2 py-[5px] rounded-full inline-block"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

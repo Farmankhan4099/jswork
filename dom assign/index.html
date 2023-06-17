@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom assignment</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <button onclick="fn1('ringtone.mp3')">ringtone</button>
+
+      <audio id="song">
+        <source id="songSource" type="audio/mpeg" />
+      </audio>
+      <br />2
+      <br />
+
+      <input type="number" id="inp" value="" /><br /><br />
+      <button onclick="fn2()">submit</button>
+
+      <div>
+        <span id="intro"></span>
+        <div>
+          <img src="" id="family" />
+          <p id="about">
+            <span id="age"></span><br />
+            <span id="mobile"></span><br />
+            <span id="address"></span><br />
+            <span id="relation"></span><br />
+          </p>
+        </div>
+      </div>
+      <button onclick="showDetails('rehan')">Rehan</button>
+      <button onclick="showDetails('zeeshan')">Zeeshan</button>
+      <button onclick="showDetails('sajid')">Sajid</button>
+      <button onclick="showDetails('aadi')">Aadi</button>
+      <button onclick="showDetails('arun')">Arun</button>
+
+      <br /><br />
+
+      name<input type="text" id="name" /> <br />
+      <span id="error" style="display: none">error</span>
+      <br />
+      age
+      <input type="number" id="ages" />
+      <button type="submit" onclick="fns1()">submit</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

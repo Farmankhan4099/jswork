@@ -1,0 +1,72 @@
+.main-div {
+  width: 60%;
+  padding-bottom: 60px;
+  clip-path: polygon(
+    50% 0%,
+    100% 0,
+    100% 43%,
+    100% 89%,
+    68% 100%,
+    32% 100%,
+    0 86%,
+    0% 43%,
+    0 0
+  );
+}
+
+.h2 {
+  color: rgb(229, 224, 224);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.div-atm {
+  width: 80%;
+}
+
+.div-atm-small {
+  background-color: #3c465c;
+  padding: 30px 0px;
+}
+
+.atmDetails {
+  padding: 30px 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.atm-btn {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.atm-btn:hover {
+  background-color: rgb(167, 163, 163) !important;
+}
+
+.atm-btn-1:hover {
+  background-color: rgb(167, 163, 163) !important;
+}
+
+.atm-btn-1 {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.col-div {
+  padding: 0px 5px;
+  width: 50%;
+}

@@ -1,0 +1,159 @@
+a {
+  text-decoration: none !important;
+}
+
+.main {
+  position: relative;
+}
+
+.main-sign {
+  width: 40%;
+}
+
+.main-1 {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 20px 20px 20px;
+  background-color: #fff;
+  height: 100%;
+}
+
+.main-1 > a {
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+input {
+  padding: 13px 15px;
+  width: 80%;
+  margin-top: 15px;
+  background-color: #fafafa;
+  border: 1px solid #9d9b9b;
+}
+
+.btn-1 {
+  margin-top: 20px;
+}
+
+.btn-1 > button {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  background-color: #44aaec;
+  width: 320px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+}
+
+.line {
+  margin-top: 20px;
+}
+
+.line span:nth-child(1) {
+  width: 100px;
+  height: 1px;
+  background-color: #000;
+  display: inline-block;
+  color: #ddd;
+}
+
+.line span:nth-child(3) {
+  width: 100px;
+  height: 1px;
+  background-color: #000;
+  display: inline-block;
+  color: #ddd;
+}
+
+.line span:nth-child(2) {
+  font-size: 22px;
+  padding: 0px 20px;
+}
+
+.btn-2 {
+  font-size: 18px;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-2 > i {
+  color: blue;
+  font-size: 22px;
+  margin-right: 8px;
+  vertical-align: bottom;
+}
+
+.btn-main > a {
+  color: #000;
+}
+
+.a-main-1 {
+  border: 1px solid #999;
+  text-align: center;
+  padding: 15px 15px;
+  margin-top: 20px;
+}
+
+.a-main-1 a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.a-main-1 + h3 {
+  text-align: center;
+  padding: 15px 0px;
+  font-weight: 100;
+}
+
+.store-div {
+  text-align: center;
+}
+
+.img-1 {
+  width: 40%;
+  display: inline-block;
+}
+
+.img-2 {
+  width: 40%;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+  .dog-img {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+
+  .dog-img {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0px 15px;
+  }
+
+  .btn-1 > a,
+  .dog-img,
+  .line span:nth-child(1),
+  .line span:nth-child(3) {
+    display: none;
+  }
+  .img-insta {
+    width: 100%;
+  }
+}
